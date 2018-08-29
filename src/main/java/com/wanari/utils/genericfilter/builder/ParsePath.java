@@ -1,6 +1,6 @@
-package com.wanari.utils.spring.genericfilter.builder;
+package com.wanari.utils.genericfilter.builder;
 
-import com.wanari.utils.spring.genericfilter.validation.Parser;
+import com.wanari.utils.genericfilter.validation.Parser;
 
 public class ParsePath<T> extends BasePath<T> {
 

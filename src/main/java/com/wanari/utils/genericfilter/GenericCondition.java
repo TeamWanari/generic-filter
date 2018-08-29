@@ -1,9 +1,9 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
-import com.wanari.utils.spring.genericfilter.builder.BasePath;
-import com.wanari.utils.spring.genericfilter.validation.Parser;
-import com.wanari.utils.spring.genericfilter.validation.Rule;
-import com.wanari.utils.spring.genericfilter.validation.Validation;
+import com.wanari.utils.genericfilter.builder.BasePath;
+import com.wanari.utils.genericfilter.validation.Parser;
+import com.wanari.utils.genericfilter.validation.Rule;
+import com.wanari.utils.genericfilter.validation.Validation;
 
 public class GenericCondition<T> {
     private String key;

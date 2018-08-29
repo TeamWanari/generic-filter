@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
 import javax.persistence.metamodel.SetAttribute;
 import javax.persistence.metamodel.SingularAttribute;

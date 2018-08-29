@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter.validation;
+package com.wanari.utils.genericfilter.validation;
 
 import io.vavr.Function2;
 

@@ -1,11 +1,9 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
-import com.wanari.utils.spring.genericfilter.error.ErrorDto;
-import com.wanari.utils.spring.genericfilter.error.ErrorDescriptionParamDto;
+import com.wanari.utils.genericfilter.error.ErrorDto;
+import com.wanari.utils.genericfilter.error.ErrorDescriptionParamDto;
 
 import io.vavr.control.Either;
-import org.springframework.http.HttpStatus;
-
 import java.util.List;
 
 public class GenericParameters {
@@ -20,7 +18,7 @@ public class GenericParameters {
     public Either<ErrorDto, ValidGenericParameters> validate(String entity) {
         List<String> errors = filter.getErrors();
         if(!errors.isEmpty()) {
-            return ErrorDto.badRequestEither(HttpStatus.BAD_REQUEST.value(), entity, "error.parameter.validation", new ErrorDescriptionParamDto("errors", String.join(", ", errors)));
+            return Either.left(ErrorDto.from(entity, "error.parameter.validation", new ErrorDescriptionParamDto("errors", String.join(", ", errors))));
         } else {
             return Either.right(toValidParameters());
         }

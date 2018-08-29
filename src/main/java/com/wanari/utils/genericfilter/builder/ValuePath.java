@@ -1,7 +1,7 @@
-package com.wanari.utils.spring.genericfilter.builder;
+package com.wanari.utils.genericfilter.builder;
 
 
-import com.wanari.utils.spring.genericfilter.validation.Validation;
+import com.wanari.utils.genericfilter.validation.Validation;
 
 import java.util.Objects;
 import java.util.function.Supplier;

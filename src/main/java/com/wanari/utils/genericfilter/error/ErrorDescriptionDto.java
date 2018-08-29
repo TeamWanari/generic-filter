@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter.error;
+package com.wanari.utils.genericfilter.error;
 
 import java.util.ArrayList;
 import java.util.List;

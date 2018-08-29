@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter.error;
+package com.wanari.utils.genericfilter.error;
 
 public class ErrorDescriptionParamDto {
     public String paramKey;

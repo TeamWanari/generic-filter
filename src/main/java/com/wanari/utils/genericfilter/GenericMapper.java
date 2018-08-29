@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
 import java.util.Collection;
 import java.util.List;

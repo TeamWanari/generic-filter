@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
 import javax.persistence.criteria.Fetch;
 import javax.persistence.criteria.FetchParent;

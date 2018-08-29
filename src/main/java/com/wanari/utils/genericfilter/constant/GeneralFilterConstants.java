@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter.constant;
+package com.wanari.utils.genericfilter.constant;
 
 public class GeneralFilterConstants {
     public static final String ASC = "asc";

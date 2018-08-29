@@ -1,7 +1,7 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
 
-import com.wanari.utils.spring.genericfilter.constant.GeneralFilterConstants;
+import com.wanari.utils.genericfilter.constant.GeneralFilterConstants;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;

@@ -1,8 +1,8 @@
-package com.wanari.utils.spring.genericfilter;
+package com.wanari.utils.genericfilter;
 
 
-import com.wanari.utils.spring.genericfilter.builder.BasePath;
-import com.wanari.utils.spring.genericfilter.builder.OnPath;
+import com.wanari.utils.genericfilter.builder.BasePath;
+import com.wanari.utils.genericfilter.builder.OnPath;
 
 import java.util.ArrayList;
 import java.util.List;

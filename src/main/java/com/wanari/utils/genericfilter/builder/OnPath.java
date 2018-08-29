@@ -1,4 +1,4 @@
-package com.wanari.utils.spring.genericfilter.builder;
+package com.wanari.utils.genericfilter.builder;
 
 import java.util.function.Consumer;
 
