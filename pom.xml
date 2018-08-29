@@ -5,12 +5,87 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wanari</groupId>
-    <artifactId>generic-filter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>utils.spring.genericfilter</artifactId>
+    <version>1.0.0</version>
 
     <packaging>jar</packaging>
 
-    <name>generic-filter</name>
+    <name>Wanari Generic Filter</name>
+    <description>The Wanari Generic Filter library contains classes with which you can easily convert either your REST API params or GraphQL params (or any other params) into query filters.</description>
+    <url>https://www.wanari.com/documentations/generic-filter</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.wanari.com/licenses/mit-license</url>
+            <distribution>https://github.com/TeamWanari/generic-filter</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git:github.com/TeamWanari/generic-filter.git</connection>
+        <developerConnection>scm:git:ssh://github.com:TeamWanari/generic-filter.git</developerConnection>
+        <url>https://github.com/TeamWanari/generic-filter/tree/master</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>Süxy</id>
+            <name>Sükein Alex</name>
+            <email>suxy@wanari.com</email>
+              <organization>Wanari Kft.</organization>
+              <organizationUrl>http://www.wanari.com</organizationUrl>
+              <roles>
+                <role>Backend Developer</role>
+              </roles>
+              <timezone>Hungary/Budapest</timezone>
+        </developer>
+        <developer>
+            <id>Sebi</id>
+            <name>Csorba Sebesztyén</name>
+            <email>sebi@wanari.com</email>
+            <organization>Wanari Kft.</organization>
+            <organizationUrl>http://www.wanari.com</organizationUrl>
+            <roles>
+                <role>Backend Developer</role>
+            </roles>
+            <timezone>Hungary/Budapest</timezone>
+        </developer>
+        <developer>
+            <id>PiciMaci</id>
+            <name>Medvey Fanni</name>
+            <email>picimaci@wanari.com</email>
+            <organization>Wanari Kft.</organization>
+            <organizationUrl>http://www.wanari.com</organizationUrl>
+            <roles>
+                <role>Backend Developer</role>
+            </roles>
+            <timezone>Hungary/Budapest</timezone>
+        </developer>
+        <developer>
+            <id>Laki</id>
+            <name>Lakatos József</name>
+            <email>laki@wanari.com</email>
+            <organization>Wanari Kft.</organization>
+            <organizationUrl>http://www.wanari.com</organizationUrl>
+            <roles>
+                <role>Backend Developer</role>
+            </roles>
+            <timezone>Hungary/Budapest</timezone>
+        </developer>
+    </developers>
 
     <properties>
     </properties>
