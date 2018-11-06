@@ -21,5 +21,5 @@ Use https://jitpack.io/ to import this lib to your project and add the following
 ```
 
 
-## Sample code parts
+## Sample code
 https://github.com/TeamWanari/graphql-vs-rest
