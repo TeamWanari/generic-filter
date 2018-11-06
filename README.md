@@ -20,6 +20,8 @@ Use https://jitpack.io/ to import this lib to your project and add the following
 </dependency>
 ```
 
+## Developer's guide
+https://www.wanari.com/documentations/generic-filter/
 
 ## Sample code
 https://github.com/TeamWanari/graphql-vs-rest
