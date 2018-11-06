@@ -19,3 +19,7 @@ Use https://jitpack.io/ to import this lib to your project and add the following
     <version>{version}</version>
 </dependency>
 ```
+
+
+## Sample code parts
+https://github.com/TeamWanari/graphql-vs-rest
