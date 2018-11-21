@@ -1,5 +1,5 @@
 ## Installation
-``` maven central
+Just add the dependency to your project
 ```xml
 <dependency>
   <groupId>com.wanari</groupId>
